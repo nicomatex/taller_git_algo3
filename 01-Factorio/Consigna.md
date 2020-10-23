@@ -18,8 +18,10 @@ Tienen que modelar con nuestros queridos objetos el funcionamiento del circuito 
 
 Sugerencia: simplifiquen el problema. Por ejemplo, no interesa cómo el extractor de hierro produce hierro. 
 
-## Entrega
-En el repositorio tienen el codigo realizado en clases FactorioEnClaseRevisado.st, deben hacer file-in en Cuis de este archivo, con esto les va a cargar una versión mas avanzada de los objetos (DenotativeObjects) que creamos en clases. Ademas les pasamos 3 casos de tests que deben hacer pasar.  
+## ¿Qué tenemos que hacer?
+En el repositorio tienen el codigo realizado en clases FactorioEnClaseRevisado.st, deben hacer file-in en Cuis de este archivo, con esto les va a cargar una versión mas avanzada de los objetos (DenotativeObjects) que creamos en clase. Además pueden observar que hay un objeto que se llama FactorioTest que contiene 3 casos de tests que deben hacer pasar. Cada uno de los tests verifica los escenarios de la consigna. El primero pasa ya que se encuentra completa su implementación. Van a notar que algunos tests están incompletos, podrán encontrar comentarios describiendo cómo deben completarlos. La idea es que reemplacen estos comentarios con el codigo que lo hace andar.
+
+Para que estos tests anden deben terminar el modelo de objetos (crear nuevos objetos y nuevos mensajes). Pista: seria razonable que su modelo tenga entre 3 y 8 objetos.
 
 Para entregar deben hacer file-out de lo que representaron y subirlo al repo de su grupo dentro de una carpeta que llamarán 01-Factorio.
 
