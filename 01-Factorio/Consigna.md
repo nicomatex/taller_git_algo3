@@ -18,6 +18,12 @@ Tienen que modelar con nuestros queridos objetos el funcionamiento del circuito 
 
 Sugerencia: simplifiquen el problema. Por ejemplo, no interesa cómo el extractor de hierro produce hierro. 
 
+## Entrega
+En el repositorio tienen el codigo realizado en clases FactorioEnClaseRevisado.st, deben hacer file-in en Cuis de este archivo, con esto les va a cargar una versión mas avanzada de los objetos (DenotativeObjects) que creamos en clases. Ademas les pasamos 3 casos de tests que deben hacer pasar.  
+
+Para entregar deben hacer file-out de lo que representaron y subirlo al repo de su grupo dentro de una carpeta que llamarán 01-Factorio.
+
+
 ## Tips de colecciones
 
 **¿Cómo crear una colección ordenada?**
@@ -29,7 +35,7 @@ unaColeccion := OrderedCollection new.
 **¿Cómo agregarle un objeto a una colección?**
 
 ```smalltalk
-unaColeccion add: ‘Hola’
+unaColeccion add: 'Hola'
 ```
 
 **¿Cómo agregar todos los elementos de una colección a otra colección?**
