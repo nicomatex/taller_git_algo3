@@ -2,7 +2,7 @@
 
 Hola soy el ingeniero de la planta Factorio donde extraemos hierro y carbón. Necesito un sistema que me ayude a planificar distintas formas de organizar nuestro circuito de producción. En la fábrica contamos con dos extractores, uno de carbón y otro de hierro, dos cintas transportadoras (dato de color…una es roja y la otra azul) y una caja donde almacenamos las menas de carbón y hierro producidas. El circuito que tenemos hoy en la fábrica es el siguiente:
 
-![Circuito de Factorio](https://github.com/algoritmos-iii/ejercicios-2020-2c/blob/main/01-Factorio/circuito.png)
+![Circuito de Factorio](https://github.com/algoritmos-iii/ejercicios-2020-2c/blob/main/01-Factorio/Circuito.png)
 
 Ahora necesito poder hacer funcionar este circuito. Pero pronto necesitaremos poder conectar los componentes de otra forma.
 
