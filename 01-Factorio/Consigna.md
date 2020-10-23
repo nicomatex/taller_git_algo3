@@ -1,3 +1,4 @@
+# Factorio
 
 Hola soy el ingeniero de la planta Factorio donde extraemos hierro y carbón. Necesito un sistema que me ayude a planificar distintas formas de organizar nuestro circuito de producción. En la fábrica contamos con dos extractores, uno de carbón y otro de hierro, dos cintas transportadoras (dato de color…una es roja y la otra azul) y una caja donde almacenamos las menas de carbón y hierro producidas. El circuito que tenemos hoy en la fábrica es el siguiente:
 
@@ -18,13 +19,16 @@ Escenario 2: un escenario más avanzado ahora sería conectar el extractor de ca
 Escenario 3: circuito completo de la fábrica.
 Tips: en el ambiente tienen colecciones ordenadas.
 
-# ¿Cómo crear una colección ordenada?
+**¿Cómo crear una colección ordenada?**
 unaColeccion := OrderedCollection new.
 
-# ¿Cómo agregarle un objeto a una colección?
+** ¿Cómo agregarle un objeto a una colección?**
 unaColeccion add: ‘Hola’
 
-# ¿Cómo agregar todos los elementos de una colección a otra colección?
+**¿Cómo agregar todos los elementos de una colección a otra colección?**
 otraColeccion := OrderedCollection new.
 otraColeccion addAll: unaColeccion
 
+
+**¿Cómo contar la cantidad de elementos que cumplen con cierta condición? Por ejemplo la cantidad de unos que tenemos.**
+unaColeccion count: [ :cadaElemento | cadaElemento = 1 ]
