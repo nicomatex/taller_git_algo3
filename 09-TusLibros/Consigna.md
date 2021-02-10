@@ -101,7 +101,7 @@ Ejemplos:
 
 La idea de esta primera iteración es comenzar modelando el dominio del problema, basándonos en la metáfora de un supermercado.
 Lo primero que hacemos al llegar al supermercado es tomar un carrito e ir agregando al mismo los items que queremos comprar.
-Se pide modelar esta parte del problema. Considerar que no podemos agregar cualquier libro al carrito, sino sólo aquellos libros que figuran en el catálogo de la editorial.
+Se pide modelar esta parte del problema. No olvidar pensar y modelar las diferentes restricciones que puede tener esta parte del problema, que no están explícitas en el enunciado. Ej: Considerar que no podemos agregar cualquier libro al carrito, sino sólo aquellos libros que figuran en el catálogo de la editorial. Ante la duda, preguntar.
 
 Este ejercicio trata de un problema similar a uno real de la industria, bastante más grande que los ejercicios que veníamos haciendo. Mientras más grande es el problema, es habitual que su definición sea más ambigua / menos clara. Este enunciado es en consecuencia ambiguo y poco definido. Esto es intencional. Queremos enfrentarlos con un problema que inevitablemente van a tener. Por lo cual, tal como ocurriría en la realidad, se espera que despejen las dudas con "el cliente", en este caso, representado por los docentes de la cátedra, haciéndonos todas las preguntas que hagan falta. Esto es parte de lo que estamos evaluando / ejercitando.
 
