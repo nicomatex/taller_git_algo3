@@ -96,3 +96,15 @@ Ejemplos:
 
       1,10533,60.53
       2,INVALID EXPIRATION DATE
+
+## Iteración 1
+
+La idea de esta primera iteración es comenzar modelando el dominio del problema, basándonos en la metáfora de un supermercado.
+Lo primero que hacemos al llegar al supermercado es tomar un carrito e ir agregando al mismo los items que queremos comprar.
+Se pide modelar esta parte del problema. Considerar que no podemos agregar cualquier libro al carrito, sino sólo aquellos libros que figuran en el catálogo de la editorial.
+
+Este ejercicio trata de un problema similar a uno real de la industria, bastante más grande que los ejercicios que veníamos haciendo. Mientras más grande es el problema, es habitual que su definición sea más ambigua / menos clara. Este enunciado es en consecuencia ambiguo y poco definido. Esto es intencional. Queremos enfrentarlos con un problema que inevitablemente van a tener. Por lo cual, tal como ocurriría en la realidad, se espera que despejen las dudas con "el cliente", en este caso, representado por los docentes de la cátedra, haciéndonos todas las preguntas que hagan falta. Esto es parte de lo que estamos evaluando / ejercitando.
+
+Como siempre, se pide resolver el ejercicio mediante TDD, aplicando todo lo visto hasta el momento en la materia.
+
+
