@@ -107,4 +107,12 @@ Este ejercicio trata de un problema similar a uno real de la industria, bastante
 
 Como siempre, se pide resolver el ejercicio mediante TDD, aplicando todo lo visto hasta el momento en la materia.
 
+## Iteración 2
+
+Ya podemos agregar cosas al carrito, ahora viene la segunda parte de toda compra: el checkout! La idea es modelar por completo esta problemática, pensando los distintos escenarios posibles. En el medio van a tener que interactuar con el Merchant Processor. Recuerden la idea que vimos de usar un objeto simulador, una especie de doble de riesgo, que va a ser controlado por nosotros en los tests, para que este Merchant Processor de mentira nos responda lo que queremos, y así poder seguir testeando nuestro modelo, sin tener que hablar con servicio externo real. No se olviden que el supermercado debe registrar las ventas realizadas, ni tampoco se olviden resolver el tema de la expiración de la tarjeta, ni los casos de falla donde el MP no pudo procesar el pago.
+
+Como siempre, se pide resolver el ejercicio mediante TDD, aplicando todo lo visto hasta el momento en la materia.
+
+
+
 
