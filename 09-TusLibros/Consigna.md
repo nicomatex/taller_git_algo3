@@ -113,6 +113,18 @@ Ya podemos agregar cosas al carrito, ahora viene la segunda parte de toda compra
 
 Como siempre, se pide resolver el ejercicio mediante TDD, aplicando todo lo visto hasta el momento en la materia.
 
+## Iteración 3
 
+El objetivo de esta iteración es desarrollar la cara interna de la interfaz de entrada de nuestro sistema. La idea es modelar y testear las funcionalidades equivalentes a las interfaces REST presentadas en la consigna (crear carrito, agregar, etc). Ojo con no romper encapsulamiento al hacer TDD: deben usar los mismos mensajes de la interfaz para poder asertar sobre el comportamiento de la misma. NO deben desarrollar la cara externa (es decir, los pedidos HTTP y sus respuestas), sólo la cara interna.
 
+Para la autenticación, pueden pensarlo como un objeto que responde si las credenciales son válidas. No es necesario implementar ningun mecanismo real de autenticación (en la aplicación final, se reemplazaría este objeto por un sistema robusto de autenticación).
 
+Como siempre, se pide resolver el ejercicio mediante TDD, aplicando todo lo visto hasta el momento en la materia.
+
+## Iteración 4
+
+Esta última etapa se trata de desarrollar la cara externa de la interfaz, para que sea una API Rest completamente funcional. La interfaz externa del Merchant Processor no la vamos a desarrollar, por lo que pueden usar algun objeto como el simulador que hicieron para testear. Idem para el sistema de autenticación. El objetivo final es que se pueda usar la API por completo desde el navegador o algún otro cliente web.
+
+Para Cuis, pueden usar el paquete WebClient, para implementar el servidor (lo deben instalar cargando el paquete desde la carpeta Packages). En Python, pueden optar por Flask o algúna librería que conozcan que resuelva este tema.
+
+Dado que no entra en el conograma de la materia, esta iteración es OPCIONAL para quien quiera practicar. No se evaluará ni suma puntos extra, pero podemos darles feedback o responder consultas si tienen.
