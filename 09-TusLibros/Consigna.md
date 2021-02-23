@@ -119,6 +119,8 @@ El objetivo de esta iteración es desarrollar la cara interna de la interfaz de 
 
 Para la autenticación, pueden pensarlo como un objeto que responde si las credenciales son válidas. No es necesario implementar ningun mecanismo real de autenticación (en la aplicación final, se reemplazaría este objeto por un sistema robusto de autenticación).
 
+No olviden implementar la expiración del carrito, según lo mencionado en la consigna :)
+
 Como siempre, se pide resolver el ejercicio mediante TDD, aplicando todo lo visto hasta el momento en la materia.
 
 ## Iteración 4
